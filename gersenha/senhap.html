@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<!-------- bootstrap----->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!------ fim bootstrap---------->
+
+	<title>Senhap</title>
+
+	<!--------- efeito imagens--------->
+	 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+		<script src="js/cufon-yui.js" type="text/javascript"></script>
+		<script src="js/Cantarell.font.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			Cufon.replace('a,h3');
+			Cufon.replace('h1', {
+				textShadow: '0px 1px #fff'
+			});
+			Cufon.replace('h2', {
+				textShadow: '0px 1px #fff'
+			});
+		</script>
+
+	<!---------fim efeito imagem-------->
+
+   <!---------style------->
+	<style type="text/css">
+		body
+		{
+			background-image: url(img/backgroud_gersenha1.JPG);
+			 background-repeat:  no-repeat;
+			background-size: 100%;
+		}
+		
+		#iniciar
+		{
+			margin-top: 200px;
+
+		}
+
+		h1
+		{
+			color: #ffffff;
+		}
+		</style>
+		<!-------fim style-------------->
+
+<!----------buscar exe dentro navegador-------------------->
+
+
+
+<!--------------fim buscar exe dentro do navegador--------->		
+
+
+	
+
+</head>
+<body>
+
+<!---------nav-------------------------------------->
+<nav style="height: 90px;" class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><img src="img/logof2.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Inicio<span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a  class="nav-link " href="cadastro_colaborador.html">Cadastro Colaborador</a>
+      </li>
+
+      <li class="nav-item">
+      	<a class="nav-link" href="gerar_senha.html">Gerar Senha</a>
+      </li>
+
+      <li class="nav-item">
+      	<a  class="nav-link" href="#">Cadastro Clientes</a>
+      	
+      </li>
+
+      <li class="nav-item"><a class="nav-link" href="#">Relátorio Site</a>
+      </li>
+ 
+    </ul>
+</div>
+</nav>
+
+<!-----------fim nav----------------------------------------->
+	<script type="text/javascript">
+	var es_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+		if(es_chrome)
+		{
+    	 alert("Você está utilizando o Google Chrome, por favor re-abra este site no Internet Explore");
+     		location.href="gerar_senha.html";
+		}
+
+	var es_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+		if(es_firefox)
+		{
+			alert("Você está utilizando o Firefox, por gentileza reabra ");
+			location.href="gerar_senha.html";
+		}
+
+	var es_opera = navigator.userAgent.toLowerCase().indexOf('opera') > -1;
+		if(es_opera)
+		{
+			    alert("Você está utilizando o Opera");
+			    location.href="gerar_senha.html";
+		}
+	</script>
+	<h1>SENHAP</h1>
+
+	<button id="iniciar" type="button" class="btn btn-secondary btn-lg btn-block" onclick="Execultar();">Iniciar Gerenciador</button>
+
+
+<script>
+ function Execultar(){
+ var shell = new ActiveXObject( "WScript.shell" );
+ shell.run( '"C:\\f2software\\gersenha.bat"', 1, true );}
+
+</script>
+
+</body>
+</html>
