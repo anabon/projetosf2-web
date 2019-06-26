@@ -1,0 +1,86 @@
+/*        Loading    */
+#pav_loading,
+#pav_saved
+{
+        position: fixed;
+        text-align: center;
+        z-index: 20000;
+        top: 40%;
+        left: 45%;
+        display: block;
+        width: 128px;
+        height: 128px;
+        display: none;
+}
+
+.loading_normal img{
+        width: auto;
+        height: auto;
+        vertical-align:middle;
+}
+
+/*  LOGO */
+#cli_logo {
+	margin-top: 5px;
+	display: block;
+	width:280px;
+	height:160px;
+	line-height: 160px;
+	border: solid 1px red; 
+	text-align: center;
+}
+
+#cli_logo img{
+	max-width: 280px;
+	max-height: 160px;
+	line-height: 160px;
+        vertical-align: middle;
+}
+
+/*  Inpus */
+.pav_main input[type=text],
+.pav_main input[type=password],
+.pav_main select,
+.pav_main textarea,
+.pav_main .pav_modal input[type=text],
+.pav_main .pav_modal input[type=password],
+.pav_main .pav_modal select,
+.pav_main .pav_modal textarea {
+        padding: 0;
+        margin: 0;
+        padding-left: 10px;
+        height: 45px;
+        line-height: 45px;
+}
+
+/*   *****************  Tabelas ********************* */
+.pav_main table td,
+.pav_main table th {
+	padding: 10px;
+}
+
+.pav_main table .left,
+.pav_main .pav_modal table .left {
+	text-align: left;
+}
+
+.pav_main table .right,
+.pav_main .pav_modal table .right {
+	text-align: right;
+}
+
+.pav_main table .center,
+.pav_main .pav_modal table .center {
+	text-align: center;
+}
+
+/* ********************* Login *************** */
+a.login{
+	text-decoration: none;
+	color: rgb(100,100,100);	
+}
+
+a.login:hover{
+	text-decoration: none;
+	color: rgb(0,0,0);	
+}

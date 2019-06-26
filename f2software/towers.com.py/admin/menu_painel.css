@@ -1,0 +1,66 @@
+ul, li{
+	padding: 0px;
+	margin: 0px;
+	z-index:1000;
+}
+ul.dropmenu{
+	position: relative;
+	margin: 0px;
+	padding: 1px 5px 0px 20px;
+	background: #efefef scroll 0 0;
+	display:block;
+	height: 35px;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	z-index:2000;
+}
+.dropmenu li{
+	position: relative;
+	list-style: none;
+	float: left;
+	margin: 10px 30px 5px 5px;
+	padding:0px;
+}
+.dropmenu li a{
+	height: 18px;
+	padding: 0px 5px 0px 5px;
+	display: block;
+	cursor: point;
+	border-right: solid 1px #000;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.dropmenu li:hover ul, .dropmenu li:hover div{
+	display: block;
+}
+.dropmenu ul{
+	position: absolute;
+	display: none;
+	width: 180px;
+	padding: 0px;
+	margin: 0px;
+	background: #EFEFEF 0 0;
+}
+.dropmenu ul li{
+	border: 0;
+	float: none;
+}
+.dropmenu ul a {
+  border:none;
+  border-bottom: 0;
+  white-space: nowrap;
+  display:block;
+  color: #000;
+  text-decoration:none;
+  text-transform: none;
+}
+
+.dropmenu ul a:hover {
+	color:#000 !important;
+	text-decoration: none;
+	background-color: #CCC;
+}
+
+

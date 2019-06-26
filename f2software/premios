@@ -1,0 +1,431 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bios Mais Tecnologia</title>
+
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+   
+    <link href="css/estilos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body>
+
+
+    <!-- Navigation -->
+    <div style="background-color:#000">
+    <nav class="navbar navbar-inverse navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                 <span class="navbar-brand" style="font-size:13px; color:#999">Se é Bios, funciona.&nbsp;&nbsp;|&nbsp;&nbsp;<span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>&nbsp;17 3531-2900</span>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav navbar-right" style="font-size:12px; font-weight:400; ">
+                <li><a href="inicio">INÍCIO</a></li>
+                <li><a href="empresa">A EMPRESA</a></li>
+                <li><a href="solucoes">SOLUÇÕES</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">IMPRENSA<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                  <li><a href="noticias">Notícias da Bios</a></li>
+                  <li><a href="artigos">Artigos de Tecnologia</a></li>
+                  <li><a href="premios">Nossas Conquistas</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">RESPONSABILIDADE SOCIAL<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="bioskids">Fundação Bios Kids</a></li>
+                    <li><a href="universidade">Universidade Bios</a></li>
+                  </ul>
+                </li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FALE CONOSCO<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="contato">Contato</a></li>
+                    <li><a href="trabalhe">Trabalhe Conosco</a></li>
+                  </ul>
+                </li>
+                </ul>
+            </div>
+            
+            
+            <!-- /.navbar-collapse -->
+        </div>        
+    </nav>
+    </div>
+
+<!-- logo e lnks do topo -->
+<div class="container">
+<div class="row">
+
+  		<div class="col-lg-2">
+    		<div class="divLogo"><a href="inicio"><img src="imagens/logoBios.png"></a></div>
+   		</div>
+        
+        <div class="col-lg-2">
+         <a href="https://bios.backupmanager.info/login" target="_blank" style="text-decoration: none; color:#333">
+    		<div class="divLinksAreaRestrita1"><img src="imagens/icon_backup.png" align="left"> 
+          BIOS CLOUD BACKUP<br><span style="font-size:10px; color:#666; font-weight:500">ACESSO RESTRITO</span></div></a>
+   		</div>
+        
+         <div class="col-lg-2">
+         <a href="http://www.boardnews.com.br" target="_blank" style="text-decoration: none; color:#333">
+    		<div class="divLinksAreaRestrita"><img src="imagens/icon_boardnews.png" align="left"> 
+           TV CORPORATIVA BOARDNEWS<br><span style="font-size:10px; color:#666; font-weight:500">ACESSO RESTRITO</span></div></a>
+   		</div>
+        
+        <div class="col-lg-2">
+         <a href="http://bios.com.br/outsourcing/" target="_blank" style="text-decoration: none; color:#333">
+    		<div class="divLinksAreaRestrita"><img src="imagens/icon_outsourcing.png" align="left">
+             OUTSOURCING DE IMPRESSÃO<br><span style="font-size:10px; color:#666; font-weight:500">ACESSO RESTRITO</span></div></a>
+   		</div>
+        
+        <div class="col-lg-2">
+         <a href="http://www.bios.com.br/suporte/" target="_blank" style="text-decoration: none; color:#333">
+    		<div class="divLinksAreaRestrita"><img src="imagens/icon_manutencao.png" align="left">
+             MANUTENÇÃO E SUPORTE<br><span style="font-size:10px; color:#666; font-weight:500">ACESSO RESTRITO</span></div></a>
+   		</div>
+        
+        <div class="col-lg-2">
+         <a href="http://bios.com.br/suporteRemoto.html" target="_blank" style="text-decoration: none; color:#333">
+    		<div class="divLinksAreaRestrita"><img src="imagens/icon_suporteRemoto.png" align="left">
+             SUPORTE REMOTO<br><span style="font-size:10px; color:#666; font-weight:500">ACESSO RESTRITO</span></div></a>
+   		</div>
+     
+  
+</div> 
+</div>
+</div>
+
+
+
+
+<!-- conteudo abaixo do topo -->
+
+﻿
+
+
+<link href="css/estilos.css" rel="stylesheet">
+
+<div class="container" style="margin-bottom:20px; ">
+
+		<div class="divVinheta">você está em » <b style="color: #002e6e;">Nossas Conquistas</b></div>
+
+</div>
+
+    
+    
+    <!-- conteudo -->
+    
+    
+<div class="container">
+<div align="left" style="padding-bottom:10px;">
+
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">02/08/2013</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=169" class="textoPadrao24" style="color: #333333"><strong>Encontro re&uacute;ne empreendedores premiados em S&atilde;o Paulo</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">13/12/2012</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=166" class="textoPadrao24" style="color: #333333"><strong>Bios Computadores conquista etapa estadual do Pr&ecirc;mio MPE Brasil 2012</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">09/12/2012</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=130" class="textoPadrao24" style="color: #333333"><strong>Bios &eacute; finalista no Pr&ecirc;mio MPE Brasil-2012</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">21/02/2012</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=132" class="textoPadrao24" style="color: #333333"><strong>Sebrae convida empresas de TI a concorrer a pr&ecirc;mio de competitividade</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">19/11/2010</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=129" class="textoPadrao24" style="color: #333333"><strong>Bios Computadores &eacute; Vencedora do Pr&ecirc;mio MPE-Brasil 2010</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">05/12/2008</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=127" class="textoPadrao24" style="color: #333333"><strong>Bios Computadores &eacute; premiada no pr&ecirc;mio Supera&ccedil;&atilde;o Empresarial 2008</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">28/11/2008</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=170" class="textoPadrao24" style="color: #333333"><strong>Bios, Empresa do Programa Empreender &eacute; finalista do pr&ecirc;mio SuperA&ccedil;&atilde;o</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">03/09/2008</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=126" class="textoPadrao24" style="color: #333333"><strong>Bios recebe selo de Autorizada Smart no Brasil</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">29/05/2008</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=125" class="textoPadrao24" style="color: #333333"><strong>Bios recebe o Pr&ecirc;mio Quality Brasil</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">10/10/2007</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=124" class="textoPadrao24" style="color: #333333"><strong>Bios recebe selo &quot; Empresa que Educa&quot;</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">30/08/2007</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=123" class="textoPadrao24" style="color: #333333"><strong>Bios recebe pr&ecirc;mio destaque do Ano 2006 - Revista Viva</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">25/04/2005</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=121" class="textoPadrao24" style="color: #333333"><strong>Bios recebe premia&ccedil;&atilde;o em evento Bematech</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">11/04/2005</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=120" class="textoPadrao24" style="color: #333333"><strong>Bios recebe premia&ccedil;&atilde;o - Destaque do Ano 2004</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">25/02/2004</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=119" class="textoPadrao24" style="color: #333333"><strong>Bios &eacute; destaque do Ano 2003 no segmento de inform&aacute;tica</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">18/11/2003</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=118" class="textoPadrao24" style="color: #333333"><strong>Bios &eacute; destaque no ICC Intel</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">03/04/2003</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=117" class="textoPadrao24" style="color: #333333"><strong>Bios &eacute; destaque do Ano 2002 no segmento de inform&aacute;tica</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">25/02/2002</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=116" class="textoPadrao24" style="color: #333333"><strong>Bios &eacute; destaque do Ano 2001 no segmento de inform&aacute;tica.</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">12/01/2001</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=115" class="textoPadrao24" style="color: #333333"><strong>Bios &eacute; destaque do ano 2000 no segmento de inform&aacute;tica</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">30/11/-0001</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=128" class="textoPadrao24" style="color: #333333"><strong>Bios Computadores &eacute; Vencedora do Pr&ecirc;mio MPE-Brasil 2010</strong></a><br><br>
+
+
+
+ 
+</div>
+</div>
+
+
+<div class="container">
+ <div style="border-top:#dddddd solid 1px; padding-top:6px; padding-bottom:10px; margin-top:25px" align="center">
+  <span class="textoPadrao12">
+    <span style="color:#999999">Anterior</span> |  <span class="textoPadrao12" style="color:#0062a0"><b>[1]</b></span>  | <span style="color:#999999">Pr&oacute;xima</span>&nbsp; | Total de 19 mat&eacute;rias publicadas </span>
+<hr size="3" color="#333" width="65%" />
+
+</div>
+</div>
+
+
+
+
+
+
+
+<!-- rodape -->
+
+
+  
+<div class="container-fuid" style="background-color:#111; padding-top:20px;">
+<div class="container">
+<div class="row">
+
+
+<div class="col-lg-4" style="padding-bottom:20px">
+
+<span class="textoPadrao12" style="color:#999; text-align:right">
+Visite-nos nas redes sociais:&nbsp;&nbsp;&nbsp;&nbsp;
+</span>
+
+<a href="https://www.facebook.com/biosmais/" target="_blank">
+<img src="imagens/icon_facebook.png" width="23" height="22"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.instagram.com/bios_computadores/" target="_blank">
+<img src="imagens/icon_instagram.png" width="24" height="22"></a> </div>
+
+
+<div class="col-lg-4" style="padding-bottom:20px">
+
+<span class="textoPadrao12" style="color:#999; text-align:right">
+Copyright &copy; 2017 Bios Mais Tecnologia<br>Todos os direitos reservados.
+</span>
+
+</div>
+
+
+<div class="col-lg-4"  style="padding-bottom:20px">
+<div class="linhaRodapeDivisao">
+<span class="textoPadrao12" style="color:#999">
+<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>&nbsp;&nbsp;Rua Pernambuco, 39 - CEP 15.800-080 - Catanduva-SP<br>
+<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;&nbsp;Telefone/Fax: (17) 3531-2900<br>
+<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;&nbsp;E-mail: info@bios.com.br</span>
+</div></div>
+</div>
+</div>
+</div>
+         
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/unslider.min.js"></script>
+<script>
+$(function() {
+   $('.banner').unslider({
+				fluid: true,
+				dots: true,
+				keys: true,
+				speed: 400,
+				delay: 4000
+			});
+});
+</script>
+
+<script src="js/jquery.nicescroll.min.js"></script>
+    <script>
+    $(document).ready(function () {
+    $("html").niceScroll();
+});
+     </script>
+    
+  </body>
+</html>
+

@@ -1,0 +1,125 @@
+
+
+
+
+
+
+
+#div_login {
+	position: relative;
+	top:20px;
+	left:22%;
+
+	background:url(../images/login_bg.png) no-repeat left;
+	width:600px;
+	height:249px;
+	padding:50px 50px 50px 80px;;
+}
+
+
+
+.login_label {
+
+	font-size: 11px;
+	font-weight: bold;
+	color: #654;
+	
+	
+}
+
+
+
+.login_text:focus {
+    background-color: yellow;
+}
+
+.login_linha{
+
+	height:34px;
+
+	
+	
+}
+
+
+#idLogin {
+
+	
+	vertical-align: middle;
+	font: 15px Arial, Helvetica, sans-serif;
+	background: none;
+	float: left;
+	width:350px;
+	height:17px;
+	border: none;
+	
+	outline: none;
+	
+	
+}
+
+#idLogin:focus {
+
+	background-color:none;
+	box-shadow: 0 0 0 #fff;
+	
+}
+
+#idSenha {
+
+	
+	vertical-align: middle;
+	font: 15px Arial, Helvetica, sans-serif;
+	background: none;
+	float: left;
+	width:350px;
+	height:17px;
+	padding: 2px 0 2px 5px;
+	
+	border: none;
+	
+	outline: none;
+	
+}
+
+#idSenha:focus {
+
+	background-color:none;
+	box-shadow: 0 0 0 #fff;
+	
+}
+
+
+#login_cad_abetura {
+	position: relative;
+	top: 30px;
+	left: -60px;
+
+	color: #555;
+	font-weight: normal;
+	
+	
+
+}
+
+table > jbody > tr > td {
+	background:#000;
+}
+
+#login_footer{
+	padding:50px;
+}
+
+.data_padrao {
+
+margin:500px;
+
+
+
+}
+
+
+
+
+
+

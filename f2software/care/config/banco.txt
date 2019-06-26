@@ -1,0 +1,156 @@
+CREATE TABLE `care`.`empresa` (
+ `id_empresa` INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`login` VARCHAR( 50 ) NOT NULL ,
+`senha` VARCHAR( 10 ) NOT NULL ,
+`nome` VARCHAR( 100 ) NOT NULL ,
+`cep` VARCHAR( 20 ) NOT NULL ,
+`endereco` VARCHAR( 100 ) NOT NULL ,
+`bairro` VARCHAR( 100 ) NOT NULL ,
+`cidade` VARCHAR( 100 ) NOT NULL ,
+`estado` VARCHAR( 100 ) NOT NULL ,
+`telefone` VARCHAR( 100 ) NOT NULL ,
+`email` VARCHAR( 100 ) NOT NULL ,
+`cpf` VARCHAR( 14 ) NOT NULL ,
+`rg` VARCHAR( 20 ) NOT NULL ,
+`whats` VARCHAR( 20 ) NOT NULL ,
+`incricao_municipal` VARCHAR( 20 ) NOT NULL ,
+`responsavel_tecnico` VARCHAR( 60 ) NOT NULL 
+) ENGINE = MYISAM ;
+
+
+
+--------------------------------------------------------------------------------------------
+CREATE TABLE `care`.`cad_adm` (
+`id_adm` INT NULL AUTO_INCREMENT PRIMARY KEY ,
+`login_adm` VARCHAR( 50 ) NOT NULL ,
+`senha` VARCHAR( 50 ) NOT NULL ,
+`nome` VARCHAR( 100 ) NOT NULL ,
+`telefone` VARCHAR( 20 ) NOT NULL ,
+`email` VARCHAR( 100 ) NOT NULL
+) ENGINE = MYISAM ;
+
+
+-------------------------------------------------------------------------------------------
+
+
+ALTER TABLE `empresa` ADD `data_cadastro` DATE NOT NULL AFTER `responsavel_tecnico` ,
+ADD `situacao_aprovacao` VARCHAR( 10 ) NOT NULL AFTER `data_cadastro` 
+
+
+----------------------------------------------------------------------------------------------
+
+
+CREATE TABLE `care`.`servicos` (
+`id_servico` INT NULL AUTO_INCREMENT PRIMARY KEY ,
+`descricao_servico` VARCHAR( 100 ) NOT NULL ,
+`valor_servico` FLOAT NOT NULL ,
+`tempo_execulcao` VARCHAR( 20 ) NOT NULL ,
+`taxa_minima_delivery` FLOAT NOT NULL ,
+`delivery` VARCHAR( 10 ) NOT NULL ,
+`codigo_empresa` INT NOT NULL
+) ENGINE = MYISAM ;
+
+-------------------------------------------------------------------------------------------------
+
+CREATE TABLE `care`.`funcionarios` (
+`id_funcionario` INT NULL AUTO_INCREMENT PRIMARY KEY ,
+`nome_funcionario` VARCHAR( 100 ) NOT NULL ,
+`RG` VARCHAR( 14 ) NOT NULL ,
+`CPF` VARCHAR( 14 ) NOT NULL ,
+`Horario_Abertura` VARCHAR( 15 ) NOT NULL ,
+`Horario_Fechamento` VARCHAR( 15 ) NOT NULL ,
+`delivery` VARCHAR( 5 ) NOT NULL ,
+`sexo` VARCHAR( 5 ) NOT NULL ,
+`especialidade` INT NOT NULL ,
+`cod_empresa` INT NOT NULL 
+
+
+-----------> banco atualizado 01/02/2019 <------------------------------------------------------------- 14:00:00
+
+
+
+CREATE TABLE `care`.`prmocoes` (
+`id_promocao` INT NULL AUTO_INCREMENT PRIMARY KEY ,
+`servico` VARCHAR( 50 ) NOT NULL ,
+`data_inicial` DATE NOT NULL ,
+`data_final` DATE NOT NULL ,
+`valor_promocional` FLOAT NOT NULL ,
+`nome_promocao` VARCHAR( 50 ) NOT NULL ,
+`cod_empresa` INT NOT NULL ,
+`ativo` VARCHAR( 10 ) NOT NULL
+) ENGINE = MYISAM ;
+
+
+-----------> BANCO ATUALIZADO 04/02/2019 <---------------------------------------------------------------- 15:22:00
+
+--------->--------------------------------------------------------------------------------------------------------
+
+
+CREATE TABLE `care`.`perfil_empresa` (
+`id_perfil` INT NULL AUTO_INCREMENT PRIMARY KEY ,
+`nome_fantasia` VARCHAR( 100 ) NOT NULL ,
+`cod_empresa` INT NOT NULL ,
+`logo` BLOB NOT NULL
+) ENGINE = MYISAM ;
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+ALTER TABLE `servicos` ADD `servico_promocao` VARCHAR( 5 ) NOT NULL AFTER `codigo_empresa` 
+
+----------------------------------------------------------------------------------------------------------------------------
+
+ALTER TABLE `funcionarios` ADD `foto` BLOB NOT NULL AFTER `cod_empresa` 
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+CREATE TABLE `care`.`agenda` (
+`id_agenda` INT NULL AUTO_INCREMENT PRIMARY KEY ,
+`cod_empresa` INT NOT NULL ,
+`cod_servico` INT NOT NULL ,
+`cod_profissional` INT NOT NULL ,
+`horario_agendado` VARCHAR( 15 ) NOT NULL ,
+`tempo_servico` VARCHAR( 15 ) NOT NULL ,
+`cod_cliente` VARCHAR( 15 ) NOT NULL
+) ENGINE = MYISAM ;
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+// inserção de dados tabela agenda
+
+
+INSERT INTO `care`.`agenda` (
+`id_agenda` ,
+`cod_empresa` ,
+`cod_servico` ,
+`cod_profissional` ,
+`horario_agendado` ,
+`tempo_servico` ,
+`cod_cliente`
+)
+VALUES (
+NULL , '1', '2', '7', '10:00:00', '00:30:00', '550'
+);
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+ALTER TABLE `agenda` ADD `data_agendado` DATE NOT NULL AFTER `cod_cliente` 
+
+
+------------------------------------------------------------------------------------------------------------------
+
+ALTER TABLE `usuario` ADD `TELEFONE_USUARIO` VARCHAR( 15 ) NOT NULL AFTER `SENHA_USUARIO` ,
+ADD `EMAIL_USUARIO` VARCHAR( 50 ) NOT NULL AFTER `TELEFONE_USUARIO` 
+
+
+
+------------------------------------------------------------------------------------------------------> banco serv atualizado 11/02/2019 14:39 
+
+
+
+
+

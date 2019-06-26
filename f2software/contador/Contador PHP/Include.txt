@@ -1,0 +1,5 @@
+Adicione o código abaixo no local da página onde deseja mostrar o número de visitantes. Substitua contador.php pelo caminho completo do arquivo no sevidor.
+
+<?php
+include("contador.php")
+?>

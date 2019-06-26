@@ -1,0 +1,688 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fundoEmpresa {
+	background-image:url(../imagens/fundoEmpresa1.jpg);
+	background-position:top center;
+	background-color:#b6b6b6;
+	padding-top:40px;
+	padding-bottom:40px;
+	
+}
+.divTextoEmpresa {
+	width:45%;
+}
+.tituloicone{
+	font-family:'Roboto', sans-serif;
+	font-size:23px;
+	color:#333;
+	font-weight:900;
+	letter-spacing:-1px;
+	
+}
+.textoicone{
+	
+	font-family: 'Roboto', arial-bold;
+	font-size:17px;
+	color:#333;
+	font-weight:300;
+	letter-spacing:-1px;
+	text-transform:uppercase;
+}
+
+
+.inicialSolucoes {
+	font-size:18px;
+	font-weight:700;
+	color:#333;
+	letter-spacing:-1px;
+	line-height:21px;
+	
+}
+
+.tituloSolucoes {
+	font-weight:900;
+	font-size:24px;
+	letter-spacing:-1px;
+	color:#333;
+}
+
+.textoSolucoes {
+	font-weight:300;
+	font-size:17px;
+	color:#333;
+}
+
+
+
+.tituloPag46 {
+	font-weight:300;
+	font-size:46px;
+	letter-spacing:-1px;
+	color: #333;
+}
+
+.btnLoja {
+	 font-weight:400;
+	  font-size:13px;
+	  background-color:#F03;
+	  padding:17px;  
+	 
+}
+.btnComprar {
+	  font-size:14px;
+	  font-weight:400;
+	  font-size:13px;
+	  background-color: #039;
+	  padding:10px;
+	  color:#FFF;
+	 
+}
+.btnComprar:hover {
+	  background-color: #036;
+	  text-decoration:none;
+}
+.tituloCaroussel {
+	 font-weight:bold;
+	 font-size:48px;
+	 letter-spacing:-1px;
+		
+}
+
+.subtituloCaroussel {
+	 font-weight:300;
+	 font-size:20px;
+	 letter-spacing:-1px;
+		
+}
+
+
+
+.divLinksAreaRestrita {
+	font-size:12px;
+	padding-top:8px;
+	padding-bottom:5px;	
+	clear:left;
+	height:60px;
+}
+.divLinksAreaRestrita:hover {
+	background-color:#f7f7f7;
+}
+
+.divLinksAreaRestrita1 {
+	font-size:12px;
+	padding-top:8px;
+	padding-left:15px;
+	padding-bottom:5px;	
+	clear:left;
+	height:60px;
+}
+.divLinksAreaRestrita1:hover {
+	background-color:#f7f7f7;
+}
+
+.sloganLogo {
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	font-weight:300;
+	letter-spacing:-1px;
+	padding-top:17px;
+	padding-left:10px;
+	text-align:left;
+	
+}
+
+.divVinheta {
+	border-top:#eee solid 1px;
+	border-bottom:#eee solid 1px;
+	padding:15px;
+	font-size:20px;
+	font-weight:300;
+	background-color:#f7f7f7;
+	color:#333;
+	text-align:left;
+	letter-spacing:-1px;
+}
+
+.divBannerInicial {
+	padding:0px;
+	background-position:center center;
+	height:350px;
+	padding-top:300px;
+
+}
+.divBannerInicialTexto {
+	font-family: 'Roboto', sans-serif;
+	font-size:28px;
+	font-weight:300;
+	letter-spacing:-1px;
+	padding:5px;
+	text-align:center;
+	color:#FFF;
+	opacity: 0.9;
+    filter: alpha(opacity=7);
+	width:100%;	
+	
+}
+.divTextoTopo {
+	text-align:right;
+	margin-top:20px;
+	
+}
+
+.divTextoTopoTel {
+	font-family: 'Roboto', sans-serif;
+	font-size:24px;
+	letter-spacing:-1px;
+	font-weight:300;
+	
+}
+
+.divLogo {
+	padding-top:3px;
+	padding-left:0px;
+	text-align:left;
+	
+}
+
+.inputContato {
+	background-color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	border-color:#CCC;
+	border-width:1px;
+	border-style:solid;
+	width:100%;
+	margin-bottom:7px;
+	height:40px;
+
+}
+.textareaContato {
+	background-color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	border-color:#CCC;
+	border-width:1px;
+	border-style:solid;
+	width:100%;
+	padding:8px;
+}
+.btnEnvia {
+	background-color:#06C;
+	color:#fff;
+    font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+	padding-top: 16px;
+	padding-bottom: 10px;
+	padding-left:15px;
+	padding-right:15px;
+	border:none;
+    margin-top:0px;
+	
+}
+
+
+
+.imgCapa {
+	background-image:url(../imagens/img_capa1440px1.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	font-family: 'Roboto', sans-serif;
+	font-size:40px;
+	font-weight:700;
+	letter-spacing:-2px;
+	color:#ffffff;
+	padding-top:12%;
+	padding-left:20%;
+	padding-right:20%;
+	height:560px;
+	
+}
+.textoSlide {
+	font-size:52px;
+	line-height:48px;
+}
+
+.videoInicial {
+	 width:70%;
+	 height:360px;
+}
+
+.textoPadrao11 {
+	font-family: 'Roboto', sans-serif;
+	font-size:11px;
+	color:#222222;
+}
+.textoPadrao12 {
+	font-family: 'Roboto', sans-serif;
+	font-size:12px;
+	color:#222222;
+}
+.textoPadrao13 {
+	font-family: 'Roboto', sans-serif;
+	font-size:13px;
+	color:#222222;
+}
+.textoPadrao13just {
+	font-family: 'Roboto', sans-serif;
+	font-size:13px;
+	color:#222222;
+	text-align:justify;
+}
+.textoPadrao14 {
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	color:#222222;
+}
+.textoPadrao14just {
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	color:#222222;
+	text-align:justify;
+}
+.textoPadrao15 {
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	color:#222222;
+}
+.textoPadrao15just {
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	color:#222222;
+	text-align:justify;
+}
+.textoPadrao16 {
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	color:#222222;
+}
+.textoPadrao16just {
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	color:#222222;
+	text-align:justify;
+}
+.textoPadrao18 {
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+	color:#222222;
+}
+.textoPadrao18just {
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+	color:#222222;
+	text-align:justify;
+}
+.textoPadrao20 {
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	color:#222222;
+}
+.textoPadrao22 {
+	font-family: 'Roboto', sans-serif;
+	font-size:22px;
+	color:#222222;
+}
+.textoPadrao24 {
+	font-family: 'Roboto', sans-serif;
+	font-size:24px;
+	color:#222222;
+}
+.textoPadrao28 {
+	font-family: 'Roboto', sans-serif;
+	font-size:28px;
+	color:#222222;
+}
+.textoPadrao32 {
+	font-family: 'Roboto', sans-serif;
+	font-size:32px;
+	color:#222222;
+}
+.textoPadrao36 {
+	font-family: 'Roboto', sans-serif;
+	font-size:36px;
+	color:#222222;
+}
+.textoPadrao42 {
+	font-family: 'Roboto', sans-serif;
+	font-size:42px;
+	color:#222222;
+}
+.bordaFoto1 {
+	border-style:solid;
+	border-width:2px;
+	border-color:#ddd;
+}
+.linkBannerInicial {
+	background-color:#eee;
+	border-top-color:#ccc;
+	border-top-width:2px;
+	border-top-style:solid;
+	padding:15px;
+	color:#000;
+	text-align:center;
+
+}
+
+.linkBannerInicial:hover {
+	background-color:#DDD;
+	text-decoration:none;	
+}
+
+.inputContato {
+	background-color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	border-color:#CCC;
+	border-width:1px;
+	border-style:solid;
+	width:100%;
+	margin-bottom:5px;
+	padding:5px;
+
+}
+.inputContato1 {
+	background-color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	border-color:#CCC;
+	border-width:1px;
+	border-style:solid;
+	width:49.5%;
+	margin-bottom:5px;
+	padding:5px;
+
+}
+.btnEnvia {
+	background-color:#06C;
+	color:#fff;
+    font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	padding-left:15px;
+	padding-right:15px;
+	border:none;
+    margin-top:8px;
+	
+}
+.bordaFoto1 {
+	border:solid;
+	border-width:1px;
+	border-color:#ddd;
+}
+.caixaLink1 {
+	background-color:#f1f1f1;
+	border-left:#ccc;
+	border-left-style:solid;
+	border-left-width:3px;
+	padding:10px;
+}
+.caixaLink1:hover  {
+	background-color:#dddddd;
+	text-decoration:none;
+}
+.caixaLink2 {
+	background-color:#f7f7f7;
+	border-left:#999999;
+	border-left-style:solid;
+	border-left-width:3px;
+	padding:10px;
+	font-size:18px;
+	font-weight:bold;
+	color:#444;
+}
+.caixaLink2:hover  {
+	background-color:#eeeeee;
+	text-decoration:none;
+	color:#066;
+}
+
+.imagemCrop .fakeImg {
+    background: no-repeat center;
+    background-size: cover;    
+}
+
+.imagemCrop
+{
+    display:inline-block;
+    border:1px solid #ddd;
+}
+
+.divInicialMateria {
+	height:250px;
+}
+.imagemAltura {
+	height:180px;
+}
+.caixaTelevendas {
+	border-right:#191d87;
+	border-right-style:solid;
+	border-right-width:5px;
+	padding-right:15px;
+	text-align:right;
+}
+
+@media screen and (max-width: 960px) {
+	
+	
+.divVinheta {
+	text-align:center;
+}
+	
+.divLinksAreaRestrita {
+	border-bottom: 1px #ddd solid;
+	padding-top:8px;
+	padding-left:30px;
+	background-color:#f1f1f1;
+	height:50px;
+	
+}	
+
+.divLinksAreaRestrita:hover {
+	background-color:#ddd;
+}
+
+.divLinksAreaRestrita1 {
+	border-bottom: 1px #ddd solid;
+	padding-top:8px;
+	padding-left:0px;
+	padding-left:30px;
+	background-color:#f1f1f1;
+	height:50px;
+	
+}	
+
+.divLinksAreaRestrita1:hover {
+	background-color:#ddd;
+}
+	
+.sloganLogo {
+	font-size:20px;
+	font-weight:300;
+	letter-spacing:-1px;
+	padding-top:10px;
+	padding-left:0px;
+	padding-bottom:10px;
+	text-align:center;
+	border-bottom: 1px #eee solid;
+	border-top: 1px #eee solid;
+	margin-top:10px;	
+	
+}
+
+	.linhaRodapeDivisao {
+	border-left:none;
+	padding-left:0px;
+}
+.divTextoTopoTel {
+	font-size:20px;
+	
+}
+
+.divTextoTopoEmail {
+	font-size:12px;
+	
+}
+
+.divTextoTopo {
+	text-align:center;
+	padding-top:10px;
+	border-top:solid 1px #ccc;
+	margin-top:5px;
+	
+}
+	
+	.divLogo {
+	padding-top:7px;
+	padding-left:10px;
+	padding-bottom:15px;
+	text-align:center;
+
+}	
+	
+	
+	.divRepresentante {
+	padding-left:5%;
+	padding-right:5%;
+	
+}
+	
+	.imgCapa {
+	background-image:url(../imagens/img_capa960px1.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	font-family: 'Roboto', sans-serif;
+	font-size:24px;
+	line-height:28px;
+	font-weight:700;
+	letter-spacing:-1px;
+	color:#ffffff;
+	padding-top:18%;
+	padding-left:12%;
+	padding-right:12%;
+	height:380px;
+	
+}
+
+.textoSlide {
+	font-size:36px;
+	line-height:34px;
+}
+	
+.inputContato {
+	width:100%;
+}
+.inputContato1 {
+	width:100%;
+}
+
+
+.divInicialMateria {
+	height:370px;
+}
+.imagemAltura {
+	height:350px;
+}
+.caixaTelevendas {
+	border-right:#191d87;
+	border-right-style:solid;
+	border-right-width:0px;
+	padding-right:0px;
+	border-top:#191d87;
+	border-top-style:solid;
+	border-top-width:5px;
+	padding-top:15px;
+	text-align:center;
+}
+
+.divTextoEmpresa {
+	width:55%;
+}
+
+.tituloPag46 {
+	font-size:36px;
+}
+}
+
+@media screen and (max-width: 720px) {
+	
+	.fundoEmpresa {
+	background-image:url(../imagens/fundoEmpresa2.jpg);
+	background-position:top center;
+	background-color:#b6b6b6;
+	padding-top:20px;
+	padding-bottom:20px;
+	
+}
+.divTextoEmpresa {
+	width:100%;
+}
+
+.tituloPag46 {
+	font-size:32px;
+}
+}
+
+@media screen and (max-width: 480px) {
+	
+	.tituloCaroussel {
+	 font-size:32px;
+	 letter-spacing:-1px;
+	 line-height:36px
+		
+}
+
+.tituloPag46 {
+	font-size:28px;
+}
+
+.subtituloCaroussel {
+	 font-size:18px;
+	 letter-spacing:0px;
+	 line-height:26px;
+		
+}
+
+.divVinheta {
+	padding:8px;
+	font-size:18px;
+	text-align:center;
+	letter-spacing:-1px;
+}
+}
+
+@media screen and (max-width: 360px) {
+	
+	.tituloCaroussel {
+	 font-size:28px;
+	 letter-spacing:-1px;
+		
+}
+
+.subtituloCaroussel {
+	 font-size:16px;
+	 letter-spacing:0px;
+		
+}
+	
+
+	.divRepresentante {
+	padding-left:0%;
+	padding-right:0%;
+	
+}
+
+.imagemAltura {
+	height:235px;
+}
+
+.videoInicial {
+	 width:100%;
+	 height:240px;
+}
+
+
+
+
+}

@@ -1,0 +1,463 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Keywords" content="ERP, Sistema de Gestão, Emissão de NFe, Emissão de SAT, Emissão  de Nfce, Lojas Virtuais, Desenvolvimento de sites">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Soluções em Sistemas de Gerenciamento , Sistemas para emissãos fiscais, Ecommecer e Sistemas web">
+    <meta name="author" content="Ana Bon">
+    <style>
+      .popup{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 300px;
+        height: 180px;
+        padding: 15px;
+        border: solid 1px #4c4d4f;
+        background: #f5812a;
+        display: none;
+      }
+
+    </style>
+    <script type="text/javascript">
+      function abrir(){
+        document.getElementById('popup').style.display = 'block';
+      }
+      function fechar(){
+        document.getElementById('popup').style.display =  'none';
+      }
+    </script>
+
+    <title>F2 Software - Transformando Ideias em Négocios</title>
+
+     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom CSS -->
+   
+    <link href="css/estilos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body>
+
+
+    <!-- Navigation -->
+    <div style="background-color:#006400">
+    <nav class="navbar navbar-inverse navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                 <span class="navbar-brand" style="font-size:13px; color:#F5FFFA">F2 Software - Transformando Ideias em NEGÓCIO.&nbsp;&nbsp;|&nbsp;&nbsp;<span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>&nbsp;17 33014766</span>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav navbar-right" style="font-size:12px; font-weight:400; ">
+                <li><a href="inicio">INÍCIO</a></li>
+                <li><a href="empresa">A EMPRESA</a></li>
+                <li><a href="solucoes">SOLUÇÕES</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">IMPRENSA<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                  <li><a href="noticias">Notícias</a></li>
+                  <li><a href="artigos">Artigos de Tecnologia</a></li>
+                  
+                  </ul>
+                </li>
+              
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FALE CONOSCO<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="contato">Contato</a></li>
+                    <li><a href="trabalhe">Trabalhe Conosco</a></li>
+                  </ul>
+                </li>
+                </ul>
+            </div>
+            
+            
+            <!-- /.navbar-collapse -->
+        </div>        
+    </nav>
+    </div>
+
+<!-- logo e lnks do topo -->
+<div class="container">
+<div class="row">
+
+  		<div class="col-lg-2">
+        <div class="divLogo"><a href="index.php"><img src="imagens/logof2.png"></a></div>
+      </div>
+        
+        <div class="col-lg-2">
+         <a href="#" target="_blank" style="text-decoration: none; color:#228B22">
+    		<div class="divLinksAreaRestrita1"><img src="imagens/icon_backup.png" align="left"> 
+         CLOUD BACKUP<br><span style="font-size:10px; color:#228B22; font-weight:500">ACESSO RESTRITO</span></div></a>
+   		</div>
+ 
+        <div class="col-lg-2">
+         <a href="#" target="_blank" style="text-decoration: none; color:#228B22">
+    		<div class="divLinksAreaRestrita"><img src="imagens/icon_manutencao.png" align="left">
+             MANUTENÇÃO E SUPORTE<br><span style="font-size:10px; color:#228B22; font-weight:500">ACESSO RESTRITO</span></div></a>
+   		</div>
+        
+        <div class="col-lg-2">
+         <a href="#" target="_blank" style="text-decoration: none; color:#228B22">
+    		<div class="divLinksAreaRestrita"><img src="imagens/icon_suporteRemoto.png" align="left">
+             SUPORTE REMOTO<br><span style="font-size:10px; color:#228B22; font-weight:500">ACESSO RESTRITO</span></div></a>
+   		</div>
+     
+  
+</div> 
+</div>
+</div>
+
+
+
+
+<!-- conteudo abaixo do topo -->
+
+﻿<link href="css/estilos.css" rel="stylesheet">
+
+
+
+
+<style type="text/css">
+* {
+	margin:0;
+	padding:0;
+	
+}
+
+.banner { position: relative; overflow: auto; }
+
+    .banner li { list-style: none; }
+	
+        .banner ul li {
+			 float: left;
+			 min-height:500px;    }
+		 
+		 .banner .dots {
+		position: absolute;
+		left: 46%;
+		right: 0;
+		bottom: 10px;
+		
+		max-width:100%;
+	}
+		.banner .dots li {
+			display: inline-block;
+			*display: inline;
+			zoom: 1;
+
+			width: 10px;
+			height: 10px;
+			line-height: 10px;
+			margin: 0 4px;
+
+			text-indent: -999em;
+			*text-indent: 0;
+
+			border: 2px solid #fff;
+			border-radius: 6px;
+
+			cursor: pointer;
+			opacity: .4;
+
+			-webkit-transition: background .5s, opacity .5s;
+			-moz-transition: background .5s, opacity .5s;
+			transition: background .5s, opacity .5s;
+		}
+			.banner .dots li.active {
+				background: #fff;
+				opacity: 1;
+			}
+			
+.slideDiv {
+	padding-left:15%;
+	padding-right:15%;
+	padding-bottom:10%;
+	padding-top:15%;
+	
+	
+}
+
+.slideTitulo {
+		font-family: 'Roboto', sans-serif;
+		font-size:36px;
+		color:#006400;
+		font-weight:900;
+		letter-spacing:-1px;
+}
+.slideSubTitulo {
+		font-family: 'Roboto', arial-bold;
+		font-size:20px;
+		color:#ffff;
+		font-weight:300;
+		letter-spacing:-1px;
+		text-transform:uppercase;
+}	
+
+@media screen and (max-width: 960px) {
+
+.slideDiv {
+	padding-left:10%;
+	padding-right:10%;
+	padding-bottom:10%;
+	padding-top:35%;
+}
+	
+	 .banner .dots {
+		left: 36%;
+	}
+}
+	
+</style>
+
+
+
+<div>
+
+
+  
+</div>
+    
+<!-- /.carousel -->
+<div class="container-fluid" style="background-color:#eee; padding-bottom:15px">
+
+  <!--SOLUCOES ADM-->
+
+<div class="container">
+<div style="margin-top:10px">
+<div class="row">
+<div class="col-lg-12" align="center" style="padding-top:25px; padding-bottom:0px;">
+<span style="font-weight:bold; font-size:36px; letter-spacing:-1px; color:#006400; text-transform:uppercase">
+Retrospectiva</span>
+</div>
+</div>
+</div> 
+  <div class="banner" style="margin:0; padding:0">
+  <ul>
+  <li style="background-image:url(imagens/subrotina/retrospectiva.jpg); background-position:center center; background-repeat:repeat;">
+    <div class="slideDiv" align="center">
+       <span class="slideSubTitulo">Nossas soluções em gestão comercial potencializam as atividades da sua empresa e têm como foco: Expposição, Relacionamento e Padronização. </span>
+    </div>
+  </li>
+</ul>
+
+  </div>
+    <h1>Retrospectiva</h1>
+    <h3>"O que as empresas precisam entender é que o relacionamento é a única moeda de troca para fazer os negócios acontecerem." - Canal do Empreendedor.
+
+      Conhecer o hábito de compra, como qual produto mais compra, volume , e como  foi pago a determinada compra.
+
+      A importância de possuir a RETROSPECTIVA das ocorrências é de fundamental importância, tanto para informações do cotidiano, como troca, assim tambem funciona como efetiva ferramenta de marketing para determina promoção, tele-marketing, comunicado de novas compras e muitas outras ações que poderá aumentar o faturamento e consequente lucro da empresa.
+     
+      Temos no sistema também gravado as movimentações de estoque, de contas pagas, de serviços prestados, de conta corrente bancário. Em caso de garantia, troca e eventual auditoria esta base de informação é determinante.
+</h3>
+    
+    <div style="background-color: #006400; padding: 15px" align="center">
+  <span style="font-weight: bold; font-size: 28px; letter-spacing: -1px; color:#fff">Deseja conhecer nossas soluções?</span>
+  </div>
+
+  <div class="container" align="center">
+    <div style="margin-top: 10px">
+      
+       <input type="submit" name="enviar" class="boton" value="Orçamento/Contratar " style="
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #0a6305;
+  padding: 10px 20px;
+  background: -moz-linear-gradient(
+    top,
+    #131413 0%,
+    #ffffff 50%,
+    #b5b5b5);
+  background: -webkit-gradient(
+    linear, left top, left bottom,
+    from(#131413),
+    color-stop(0.50, #ffffff),
+    to(#b5b5b5));
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 3px solid #0d0d0d;
+  -moz-box-shadow:
+    0px 1px 3px rgba(000,000,000,0.5),
+    inset 0px 0px 3px rgba(0,0,0,1);
+  -webkit-box-shadow:
+    0px 1px 3px rgba(000,000,000,0.5),
+    inset 0px 0px 3px rgba(0,0,0,1);
+  box-shadow:
+    0px 1px 3px rgba(000,000,000,0.5),
+    inset 0px 0px 3px rgba(0,0,0,1);
+  text-shadow:
+    0px -1px 0px rgba(000,000,000,0.2),
+    0px 1px 0px rgba(255,255,255,1);">
+    </div>
+</div>
+
+<div class="container">
+  <div style="margin-top: 10px">
+    
+  </div>  
+
+</div>
+
+ <div style="background-color: #006400; padding: 15px" align="center">
+   <span style="font-weight: bold; font-size: 28px; letter-spacing: -1; color: #fff;"> Venha tomar um café conosco
+     </span>
+   </div>
+   <table class="table-resp" align="center" style="@media(max-width: 700px){
+    .table-resp thead {
+      display: none;
+   }
+   .table-resp tr{
+    display: block;
+    border-bottom: 2px solid #dce0e0;
+   }
+   .table-resp tr td{
+    width: 100%;
+    display: block;
+    text-align: right;
+    border-bottom: 1px dotted #ccc;
+   }
+   .table-resp tr td:last-child{
+    border-bottom: 0;
+   }
+   .table-resp tr td:before{
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    font-size: 12px;
+   }
+
+  ">
+  <thead>
+
+    <th>
+      <img src="imagens/cafe.jpg" style="padding: 10px" align="left">
+    </th>
+    <th align="center">
+      <h2>Disponíbilizamos diversas maneiras para você entrar em contato conosco!!!
+      </h2>
+      <br/>
+      <h3> (17) 3301-4766 <br/>
+        (17) 3227-5309 <br/>
+        (17) 3022-9831
+
+      </h3>
+    </th>
+    
+
+  </thead>
+</table>
+
+
+
+
+
+
+
+
+    <!-- mapa -->
+
+<div style="background-color:#006400; padding:15px" align="center"><span style="font-weight:bold; font-size:28px; letter-spacing:-1px; color:#FFF;">NOSSO ESCRITORIO</span></div>
+<div><iframe src="https://www.google.com/maps/embed?pb=!1m20!1m12!1m3!1d5273.727651218713!2d-49.386282642181634!3d-20.82812905004774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m5!3e6!4m2!1s0x94bdad2e8140b52b%3A0x3b23034ab54e7987!2sF2SOFTWARE+SOLUCOES+EM+TECNOLOGIA+-+Jardim+Caparroz%2C+S%C3%A3o+Jos%C3%A9+do+Rio+Preto+-+SP!4m0!5e0!3m2!1spt-BR!2sbr!4v1539632507214AIzaSyBzqGXz-2VU0anRWph0KrZ5aUG59ajIh7o " width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+
+
+<!-- rodape -->
+
+
+  
+<div class="container-fuid" style="background-color:#111; padding-top:20px;">
+<div class="container">
+<div class="row">
+
+
+<div class="col-lg-4" style="padding-bottom:20px">
+
+<span class="textoPadrao12" style="color:#006400; text-align:right">
+Visite-nos nas redes sociais:&nbsp;&nbsp;&nbsp;&nbsp;
+</span>
+
+<a href="https://pt-br.facebook.com/F2SOTWARE/" target="_blank">
+<img src="imagens/icon_facebook.png" width="23" height="22"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.instagram.com/bios_computadores/" target="_blank">
+<img src="imagens/icon_instagram.png" width="24" height="22"></a> </div>
+
+
+<div class="col-lg-4" style="padding-bottom:20px">
+
+<span class="textoPadrao12" style="color:#ffff; text-align:right">
+Copyright &copy; 2018 F2 Software - Transformando Ideias em Negocios <br>Todos os direitos reservados.
+</span>
+
+</div>
+
+
+<div class="col-lg-4"  style="padding-bottom:20px">
+<div class="linhaRodapeDivisao">
+<span class="textoPadrao12" style="color:#999">
+<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>&nbsp;&nbsp;Avenida Romeu Strazzi, 304 - CEP 15084-010 <br/>- São José do Rio Preto-SP<br>
+<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;&nbsp;Telefone/Fax: (17) 3022-9831 ou 3301-4766<br>
+<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;&nbsp;E-mail: marketingf2software@gmail.com</span>
+</div></div>
+</div>
+</div>
+</div>
+         
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/unslider.min.js"></script>
+<script>
+$(function() {
+   $('.banner').unslider({
+				fluid: true,
+				dots: true,
+				keys: true,
+				speed: 400,
+				delay: 4000
+			});
+});
+</script>
+
+<script src="js/jquery.nicescroll.min.js"></script>
+    <script>
+    $(document).ready(function () {
+    $("html").niceScroll();
+});
+     </script>
+    
+  </body>
+</html>
+

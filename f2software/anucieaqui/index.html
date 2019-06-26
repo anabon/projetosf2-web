@@ -1,0 +1,25 @@
+<html>
+<head>
+<script type="text/javascript">
+function slide1(){
+document.getElementById('id').src="imagens/anucio1.png";
+setTimeout("slide2()", 3000)
+document.getElementById('aId').href="http://www.f2software.com.br/"
+}
+  
+function slide2(){
+document.getElementById('id').src="imagens/anucio2.png";
+setTimeout("slide3()", 3000)
+document.getElementById('aId').href="http://www.f2software.com.br/"
+}
+  
+function slide3(){
+document.getElementById('id').src="imagens/anucio3.png";
+setTimeout("slide1()", 3000)
+document.getElementById('aId').href="http://www.f2software.com.br/"
+}
+</script>
+<body onLoad="slide1()">
+<a id="aId"><img id="id" align="center"></a>
+</body>
+</html>

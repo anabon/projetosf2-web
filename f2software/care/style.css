@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/backgroud.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+   /* background-repeat: no-repeat;*/
+
+}
+.login-box{
+    width: 320px;
+    height: 420px;
+    background: rgba(50, 205, 50, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    margin-top:  45 px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.logo {
+    margin-top: 10px;
+
+}
+
+.logo_care
+{
+    float: left;
+    width: 90px;
+    height: 90px;
+
+}
+
+h1{
+    color: #fff;
+    font-size: 98px;
+    font-family: brush script mt;
+    text-align: height 25%;
+
+}
+
+p{
+    color: #fff;
+    font-size: 70;
+    font-family: brush script mt;
+    
+}
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fff;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover
+{
+    color: #39dc79;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+nav {
+  color: #fff;
+  background: #00BFFF;
+  width: 100%;
+  height: 140px;
+  line-height: 56px;
+}
+
+.empresa input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #008000;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.empresa input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: rgba(152,251,152, 0.7);
+    color: #000;
+}
+
+.empresa input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.empresa_form {
+    width: 320px;
+    height: 420px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

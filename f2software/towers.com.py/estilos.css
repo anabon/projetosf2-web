@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* MAGNIS - HOSPEDAGEM ILIMITADA - WWW.MAGNIS.COM.BR - HOSPEDE O SEU SITE SEM LIMITES DE ESPACO EM DISCO OU TRAFEGO MENSAL */
+
+@font-face {
+	font-family: 'FranklinGothicDemiCond';
+	src: url("fontsource/Franklin_Gothic_Demi_Cond.eot") /* EOT file for IE */
+}
+@font-face {
+	font-family: 'FranklinGothicDemiCond';
+	src: url("fontsource/Franklin Gothic Demi Cond.ttf"); /* TTF file for CSS3 browsers */
+}
+
+body,td,th { font-family: Arial, Helvetica, sans-serif; font-size:12px;color:#000;}
+body {margin:0px;}
+
+/* LINK PG */
+a {color:#000; font-size:12px;}
+a:link {text-decoration: underline;color:#000;}
+a:visited {text-decoration: underline;color:#000;}
+a:hover {text-decoration: underline;color:#000;}
+a:active {text-decoration: underline;color:#000;}
+
+/* Estilo para links Menu SUPERIOR E RODAPE */
+a.lnk_menu-sup:link {font-size:16px;text-decoration:none; font-family:'FranklinGothicDemiCond'; color:#FFF; }
+a.lnk_menu-sup:visited {font-size:16px;text-decoration:none; font-family:'FranklinGothicDemiCond'; color:#FFF;}
+a.lnk_menu-sup:hover {font-size:16px;text-decoration:none; font-family:'FranklinGothicDemiCond'; color:#FFF;}
+a.lnk_menu-sup:active {font-size:16px;text-decoration:none; font-family:'FranklinGothicDemiCond'; color:#FFF;}
+/* Fim estilo links Menu SUPERIOR*/
+
+/* Estilo para links Menu LATERAL */
+a.lnk_menu-left:link {font-size:11px;text-decoration:none; color:#FFF; margin-left:10px;}
+a.lnk_menu-left:visited {font-size:11px;text-decoration:none; color:#FFF; margin-left:10px;}
+a.lnk_menu-left:hover {font-size:11px;text-decoration:none; color:#FFF; margin-left:10px;}
+a.lnk_menu-left:active {font-size:11px;text-decoration:none; color:#FFF; margin-left:10px;}
+/* Fim estilo links Menu LATERAL*/
+
+/* Estilo para icones Menu LATERAL */
+a.lnk_menu-icone:link {font-size:10px;text-decoration:none; color:#000; font-weight:bold;}
+a.lnk_menu-icone:visited {font-size:10px;text-decoration:none; color:#000; font-weight:bold;}
+a.lnk_menu-icone:hover {font-size:10px;text-decoration:none; color: #C00; font-weight:bold;}
+a.lnk_menu-icone:active {font-size:10px;text-decoration:none; color:#000; font-weight:bold;}
+/* Fim estilo icones Menu LATERAL*/
+
+/* Estilo para links Menu LATERAL */
+a.lnk_loop:link {text-decoration:none;}
+a.lnk_loop:visited {text-decoration:none;}
+a.lnk_loop:hover {text-decoration:none;}
+a.lnk_loop:active {text-decoration:none;}
+/* Fim estilo links Menu LATERAL*/
+
+/*HEADER*/
+.frmBusca_submit { background:url(imagens/header_busca-submit.png) no-repeat top right; cursor:pointer; border:none; width:30px; height:30px;}
+.frmBusca_submit { background:url(imagens/header_busca-submit.png) no-repeat bottom right;}
+.frmBusca_input { width:100%; height:24px; border:none; background:none; color:#666; font-weight:bold;}
+
+.header-fone-nome { font-weight:bold; font-size:10px; color:#003366;}
+.header-fone-numero {font-family:'FranklinGothicDemiCond'; font-size:14px; color:#333;}
+
+/*HOME*/
+.menu-info { background:url(imagens/menu_left-bg.png) no-repeat right top; color:#FFF; font-size:11px;}
+.menu-info:hover { background:url(imagens/menu_left-bg.png) no-repeat right bottom;}
+
+/*LOOP NOTICIAS*/
+
+.news-data { color:#666; font-size:10px; text-transform:uppercase; font-weight:bold;}
+.news-titulo { color:#000; font-size:14px; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic;}
+.news-desc { color:#666; font-size:14px; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic;}
+
+/*GALERIA DE FOTOS*/
+#foto-mini{ padding:5px; background-color:#FFF;}
+#foto-mini ul{ margin:0; padding:0;}
+#foto-mini ul li{padding-left:10px; padding-right:10px; display:inline; float:left; margin-bottom:10px;}
+#foto-mini ul li img{ border:#CCC 2px solid;}
+#foto-mini ul li a{border:none;}
+
+
+/*SOBRE*/
+.sobre_conteuto { font-size:16px; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; color:#333; font-style:italic;}
+
+/*FICHA CADASTRO - FORMULARIO*/
+.frmficha_titulo { color:#C00; font-size:18px;}
+
+.frmficha_100per { width:100%; height:24px; border:#999 1px dotted; color:#000; font-family:"Courier New", Courier, monospace;}
+.frmficha_50px { width:50px; height:24px; border:#999 1px dotted; color:#000; font-family:"Courier New", Courier, monospace;}
+.frmficha_100px { width:100px; height:24px; border:#999 1px dotted; color:#000; font-family:"Courier New", Courier, monospace;}
+.frmficha_150px { width:150px; height:24px; border:#999 1px dotted; color:#000; font-family:"Courier New", Courier, monospace;}
+.frmficha_200px { width:200px; height:24px; border:#999 1px dotted; color:#000; font-family:"Courier New", Courier, monospace;}
+.frmficha_Combo100per { width:100%; height:28px; border:#999 1px dotted; color:#000; font-family:"Courier New", Courier, monospace;}
+.frmficha_Area100per { width:100%; height:100px; border:#999 1px dotted; color:#000; font-family:"Courier New", Courier, monospace;}
+
+.frmficha_Moeda100per { width:100%; height:24px; border:#999 1px dotted; color:#000; font-family:"Courier New", Courier, monospace; text-align:right;}
+.frmficha_Moeda100px { width:100px; height:24px; border:#999 1px dotted; color:#000; font-family:"Courier New", Courier, monospace; text-align:right;}
+.frmficha_Moeda150px { width:150px; height:24px; border:#999 1px dotted; color:#000; font-family:"Courier New", Courier, monospace; text-align:right;}
+
+
+/*CONTATO*/
+.contato_endereco { font-size:11px; color:#333; font-weight:bold;}
+.contato_email { font-size:18px; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; color:#333; font-style:italic;}
+.contato_fone { font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; font-size:14px; color:#666; font-weight:bold;}
+/*BUSCA HEADER*/
+
+.boby_titulo {color:#000; font-size:22px; font-family:'FranklinGothicDemiCond';}
+
+/*AUTO VIEW*/
+.auto_nome {color:#C00; font-size:22px; font-family:'FranklinGothicDemiCond' }
+.auto_preco {color:#C00; font-size:22px; font-family:'FranklinGothicDemiCond';}
+.auto_ficha { color:#333; font-size:14px; font-weight:bold;}
+.auto_ficha a {color: #900; font-size:14px; font-weight:bold;}
+.auto_ficha a:hover { color:#F00;}
+
+
+/*LOOP AUTO*/
+.loopauto_marca {font-size:11px; color:#666; font-family:'FranklinGothicDemiCond';}
+.loopauto_modelo {font-size:16px; color:#000; font-family:'FranklinGothicDemiCond';}
+.loopauto_cor {font-size:12px; color:#000; font-family:'FranklinGothicDemiCond';}
+.loopauto_ano {font-size:12px; color:#000;}
+.loopauto_preco {font-size:16px; color:#000; font-family:'FranklinGothicDemiCond';}
+.loopauto_seq {font-size:10px; color:#333; font-family:'FranklinGothicDemiCond';}
+.loopauto_lista {font-size:12px; color:#666; font-family:'FranklinGothicDemiCond';}
+
+.box_atencao { border:#F90 1px solid; background:#FF9; color:#000; font-size:14px;}
+
+/* RODAPE */
+.footer_nome {font-size:12px; color:#333; font-weight:bold;}
+.footer_endereco {font-size:10px; color:#333;}
+
+
+/* FORMUARIOS */
+.frmContato_rotulo { font-size:14px; font-style:italic;}
+.frmContato_nome {width:100%; height:24px; border:#999 1px dotted;}
+.frmContato_email {width:100%; height:24px; border:#999 1px dotted;}
+.frmContato_fone {width:120px; height:24px; border:#999 1px dotted;}
+.frmContato_comentario {width:100%; height:100px; border:#999 1px dotted;}
+.frmContato_submit { width:120px;}

@@ -1,0 +1,9 @@
+CREATE TABLE `f2software`.`vistantes` (
+`id_visitante` INT NULL AUTO_INCREMENT PRIMARY KEY ,
+`ip_vistitante` INT NOT NULL ,
+`cidade_visitante` VARCHAR( 200 ) NOT NULL ,
+`estado_visitante` VARCHAR( 200 ) NOT NULL ,
+`pais_visitante` VARCHAR( 200 ) NOT NULL ,
+`latitude_visitante` VARCHAR( 150 ) NOT NULL ,
+`lontitude_visitante` VARCHAR( 150 ) NOT NULL
+) ENGINE = MYISAM ;

@@ -1,0 +1,236 @@
+﻿
+
+
+<link href="css/estilos.css" rel="stylesheet">
+
+<div class="container" style="margin-bottom:20px; ">
+
+		<div class="divVinheta">você está em » <b style="color: #002e6e;">Notícias da Bios</b></div>
+
+</div>
+
+    
+    
+    <!-- conteudo -->
+    
+    
+<div class="container">
+<div align="left" style="padding-bottom:10px;">
+
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">12/04/2008</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=49" class="textoPadrao24" style="color: #333333"><strong>Universidade apresenta Lousa interativa na Ace - 16/04/08</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">02/04/2008</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=47" class="textoPadrao24" style="color: #333333"><strong>Bios presente no Canal Officer 2008</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">28/03/2008</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=45" class="textoPadrao24" style="color: #333333"><strong>Evento Palestra Nota Fiscal Paulista foi um sucesso !</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">25/03/2008</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=46" class="textoPadrao24" style="color: #333333"><strong>Bios presente na inaugura&ccedil;&atilde;o da nova sede da Microsoft no interior paulista</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">26/02/2008</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=43" class="textoPadrao24" style="color: #333333"><strong>Universidade Bios traz fornecedor Microsoft para evento.</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">01/02/2008</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=42" class="textoPadrao24" style="color: #333333"><strong>Bios Computadores implanta todo sistema de inform&aacute;tica na nova escola Jesus Adolescente Anglo em Catanduva</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">30/01/2008</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=41" class="textoPadrao24" style="color: #333333"><strong>Catfer sagra-se a equipe vencedora do campeonato de futsal CTC-BIOS.</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">12/01/2008</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=40" class="textoPadrao24" style="color: #333333"><strong>Come&ccedil;a o campeonato de futebol de sal&atilde;o CTC/Bios Computadores</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">29/12/2007</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=35" class="textoPadrao24" style="color: #333333"><strong>Funda&ccedil;&atilde;o Bios Kids faz revis&atilde;o em equipamentos de Creche</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">25/12/2007</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=34" class="textoPadrao24" style="color: #333333"><strong>Funda&ccedil;&atilde;o Bios Kids entrega microcomputadores para o papai noel</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">25/12/2007</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=37" class="textoPadrao24" style="color: #333333"><strong>Funda&ccedil;&atilde;o Bios Kids entrega microcomputadores para o papai noel</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">20/12/2007</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=17" class="textoPadrao24" style="color: #333333"><strong>Calend&aacute;rio M&ecirc;s Dezembro-2007</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">19/12/2007</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=38" class="textoPadrao24" style="color: #333333"><strong>Funda&ccedil;&atilde;o Bios Kids entrega impressora multifuncional para Creche Delfino Oliveira</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">18/12/2007</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=29" class="textoPadrao24" style="color: #333333"><strong>Bios apresenta coral de crian&ccedil;as em semana natalina</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">04/11/2007</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=33" class="textoPadrao24" style="color: #333333"><strong>Funda&ccedil;&atilde;o Bios Kids doa 30 micros para Legi&atilde;o Mirim de Catanduva</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">01/11/2007</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=18" class="textoPadrao24" style="color: #333333"><strong>Calend&aacute;rio M&ecirc;s Novembro-2007</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">30/10/2007</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=19" class="textoPadrao24" style="color: #333333"><strong>Treinamento sobre biometria,  inaugura a Universidade Bios</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">20/10/2007</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=16" class="textoPadrao24" style="color: #333333"><strong>Promo&ccedil;&atilde;o &quot;Essa &eacute; Massa&quot; termina com sucesso</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">10/10/2007</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=30" class="textoPadrao24" style="color: #333333"><strong>Calend&aacute;rio M&ecirc;s Outubro-2007</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">10/10/2007</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=36" class="textoPadrao24" style="color: #333333"><strong>Bios Computadores recebe certificado Empresa que Educa</strong></a><br><br>
+
+
+
+ 
+</div>
+</div>
+
+
+<div class="container">
+ <div style="border-top:#dddddd solid 1px; padding-top:6px; padding-bottom:10px; margin-top:25px" align="center">
+  <span class="textoPadrao12">
+    <a style="color:#555555" href="noticias.php?pagina=3 ">Anterior</a> |  <a style="color:#555555" href="noticias.php?pagina=1 ">[1]</a> <a style="color:#555555" href="noticias.php?pagina=2 ">[2]</a> <a style="color:#555555" href="noticias.php?pagina=3 ">[3]</a> <span class="textoPadrao12" style="color:#0062a0"><b>[4]</b></span>  <a style="color:#555555" href="noticias.php?pagina=5 ">[5]</a> <a style="color:#555555" href="noticias.php?pagina=6 ">[6]</a> | <a style="color:#555555" href="noticias.php?pagina=5 ">Pr&oacute;xima</a>&nbsp; | Total de 107 mat&eacute;rias publicadas </span>
+<hr size="3" color="#333" width="65%" />
+
+</div>
+</div>
+
+
+
+
+

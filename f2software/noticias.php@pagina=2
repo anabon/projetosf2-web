@@ -1,0 +1,236 @@
+﻿
+
+
+<link href="css/estilos.css" rel="stylesheet">
+
+<div class="container" style="margin-bottom:20px; ">
+
+		<div class="divVinheta">você está em » <b style="color: #002e6e;">Notícias da Bios</b></div>
+
+</div>
+
+    
+    
+    <!-- conteudo -->
+    
+    
+<div class="container">
+<div align="left" style="padding-bottom:10px;">
+
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">12/12/2013</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=94" class="textoPadrao24" style="color: #333333"><strong>Bios apresenta seu case de gest&atilde;o em Londrina</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">03/12/2013</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=74" class="textoPadrao24" style="color: #333333"><strong>A Funda&ccedil;&atilde;o Bios Kids doa em Ibira</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">01/12/2013</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=167" class="textoPadrao24" style="color: #333333"><strong>Marcelo Gimenes ser&aacute; um dos palestrantes do SBGC F&oacute;rum 2013</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">02/08/2013</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=169" class="textoPadrao24" style="color: #333333"><strong>Encontro re&uacute;ne empreendedores premiados em S&atilde;o Paulo</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">07/07/2013</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=158" class="textoPadrao24" style="color: #333333"><strong>Bios &eacute; convidada para participar da Miss&atilde;o FNQ</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">12/06/2013</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=95" class="textoPadrao24" style="color: #333333"><strong>Bios apoia luta contra o Trabalho Infantil</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">02/05/2013</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=131" class="textoPadrao24" style="color: #333333"><strong>Bios Computadores eleita a melhor empresa de servi&ccedil;os em TI do Brasil</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">30/12/2012</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=75" class="textoPadrao24" style="color: #333333"><strong>Funda&ccedil;&atilde;o Bios Kids - A&ccedil;&otilde;es 2012</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">30/12/2012</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=76" class="textoPadrao24" style="color: #333333"><strong>Funda&ccedil;&atilde;o Bios Kids - Doa&ccedil;&otilde;es para Entidades Assistenciais - 2012</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">13/12/2012</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=166" class="textoPadrao24" style="color: #333333"><strong>Bios Computadores conquista etapa estadual do Pr&ecirc;mio MPE Brasil 2012</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">10/12/2012</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=164" class="textoPadrao24" style="color: #333333"><strong>Bios completa 20 anos e comemora em grande estilo</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">09/12/2012</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=130" class="textoPadrao24" style="color: #333333"><strong>Bios &eacute; finalista no Pr&ecirc;mio MPE Brasil-2012</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">21/02/2012</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=132" class="textoPadrao24" style="color: #333333"><strong>Sebrae convida empresas de TI a concorrer a pr&ecirc;mio de competitividade</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">30/12/2011</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=78" class="textoPadrao24" style="color: #333333"><strong>Funda&ccedil;&atilde;o Bios Kids - A&ccedil;&otilde;es 2011</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">25/03/2011</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=80" class="textoPadrao24" style="color: #333333"><strong>Bios Computadores  &eacute; homenageada em Bras&iacute;lia</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">23/12/2010</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=79" class="textoPadrao24" style="color: #333333"><strong>Funda&ccedil;&atilde;o Bios Kids - A&ccedil;&otilde;es 2010</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">19/11/2010</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=129" class="textoPadrao24" style="color: #333333"><strong>Bios Computadores &eacute; Vencedora do Pr&ecirc;mio MPE-Brasil 2010</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">03/01/2009</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=73" class="textoPadrao24" style="color: #333333"><strong>Funda&ccedil;&atilde;o Bios Kids - A&ccedil;&otilde;es 2008</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">05/12/2008</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=127" class="textoPadrao24" style="color: #333333"><strong>Bios Computadores &eacute; premiada no pr&ecirc;mio Supera&ccedil;&atilde;o Empresarial 2008</strong></a><br><br>
+
+
+
+ 
+<span class="textoPadrao13">
+Data de Publica&ccedil;&atilde;o: <span style="color:#999999">28/11/2008</span>
+
+
+<br>
+<a href="exibenoticia.php?noticia_id=71" class="textoPadrao24" style="color: #333333"><strong>Calend&aacute;rio Universidade - Dezembro de 2008</strong></a><br><br>
+
+
+
+ 
+</div>
+</div>
+
+
+<div class="container">
+ <div style="border-top:#dddddd solid 1px; padding-top:6px; padding-bottom:10px; margin-top:25px" align="center">
+  <span class="textoPadrao12">
+    <a style="color:#555555" href="noticias.php?pagina=1 ">Anterior</a> |  <a style="color:#555555" href="noticias.php?pagina=1 ">[1]</a> <span class="textoPadrao12" style="color:#0062a0"><b>[2]</b></span>  <a style="color:#555555" href="noticias.php?pagina=3 ">[3]</a> <a style="color:#555555" href="noticias.php?pagina=4 ">[4]</a> <a style="color:#555555" href="noticias.php?pagina=5 ">[5]</a> <a style="color:#555555" href="noticias.php?pagina=6 ">[6]</a> | <a style="color:#555555" href="noticias.php?pagina=3 ">Pr&oacute;xima</a>&nbsp; | Total de 107 mat&eacute;rias publicadas </span>
+<hr size="3" color="#333" width="65%" />
+
+</div>
+</div>
+
+
+
+
+
